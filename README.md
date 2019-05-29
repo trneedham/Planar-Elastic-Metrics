@@ -3,10 +3,15 @@
 This is a numerical implementation of the work in 
 
 @article{kurtek2018simplifying,
+
   title={Simplifying transforms for general elastic metrics on the space of plane curves},
+  
   author={Kurtek, Sebastian and Needham, Tom},
+  
   journal={arXiv preprint arXiv:1803.10894},
+  
   year={2018}
+  
 }
 
 The transforms are normalized to have a=1, so that the 1-parameter family of metrics considered are the elastic metrics g^{1,b}. Due to non-injectivity and numerical issues outlined in the paper, there are two regimes where the implementation has different performance:
